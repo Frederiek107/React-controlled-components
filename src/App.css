@@ -1,1 +1,41 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+#personal-data {
+    width: 600px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 200px;
+    margin: 5px;
+}
+
+#reviewblock {
+    width: 600px;
+    height: 200px;
+}
+
+select {
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+button {
+    width: 150px;
+    margin-left: 225px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+form {
+    margin: 5px;
+}
